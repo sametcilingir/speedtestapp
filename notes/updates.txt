@@ -1,0 +1,14 @@
+Adding Info.plist to project
+
+<key>CFBundleLocalizations</key>
+<array>
+	<string>en</string>
+	<string>tr</string>
+</array>
+
+Adding assetes folder to project
+Adding keys to folder project
+Adding scripts folder to project
+Adding notes folder to project
+Adding flutter_native_splash.yaml to project
+Adding gitignore

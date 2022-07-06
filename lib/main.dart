@@ -10,10 +10,13 @@ import 'core/constants/string_constant.dart';
 import 'core/locators/locators.dart';
 import 'core/services/localization/localization_service.dart';
 import 'core/services/route/route_service.dart';
-import 'core/theme/theme_service.dart';
+import 'core/services/theme/theme_service.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  //Screen size settings
+  await ScreenUtil.ensureScreenSize();
 
   //init localization
   await EasyLocalization.ensureInitialized();

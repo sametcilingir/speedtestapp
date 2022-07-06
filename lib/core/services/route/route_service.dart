@@ -40,4 +40,9 @@ class RouteService implements BaseRouteService {
   void pop() {
     GoRouter.of(_context).pop();
   }
+
+  @override
+  void go({required String route}) {
+    GoRouter.of(_context).go(route);
+  }
 }

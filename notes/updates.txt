@@ -6,9 +6,12 @@ Adding Info.plist to project
 	<string>tr</string>
 </array>
 
+
+dart pub global activate flutter_scripts
+# flutter_scripts run 
+
 Adding assetes folder to project
 Adding keys to folder project
-Adding scripts folder to project
 Adding notes folder to project
 Adding flutter_native_splash.yaml to project
-Adding gitignore
+podfile unchecked ios version

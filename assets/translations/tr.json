@@ -1,5 +1,8 @@
 {
-    "Push Route": "Sayfaya git",
-    "Change Locale": "Dil değiştir",
-    "Pop Route": "Geri gel"
+    "Speed Test": "Hız Testi",
+    "DOWNLOAD": "İNDİRME",
+    "UPLOAD": "YÜKLEME",
+    "Test Now": "Şimdi Test Et",
+    "Connection Problem": "Internet Hatası"
+
 }

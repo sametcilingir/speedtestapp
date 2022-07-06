@@ -12,7 +12,7 @@ import '../../features/home/view_model/home_view_model.dart' as _i3;
 import '../../features/init/view_model/init_view_model.dart' as _i4;
 import '../services/localization/localization_service.dart' as _i5;
 import '../services/route/route_service.dart' as _i7;
-import '../theme/theme_service.dart'
+import '../services/theme/theme_service.dart'
     as _i8; // ignore_for_file: unnecessary_lambdas
 
 // ignore_for_file: lines_longer_than_80_chars

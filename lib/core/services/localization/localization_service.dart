@@ -21,7 +21,11 @@ class LocalizationService implements BaseLocalizationService {
   get localizationDelegates => _localization?.delegates;
 
   @override
-  void changeLang({required Locale locale}) {
-    _localization?.setLocale(locale);
+  void changeLang() {
+    if (locale == LocaleConstant.EN) {
+      _localization.setLocale(LocaleConstant.TR);
+    } else {
+      _localization.setLocale(LocaleConstant.EN);
+    }
   }
 }

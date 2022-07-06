@@ -18,7 +18,6 @@ abstract class InitViewModelBase with Store {
         brightness == Brightness.light ? Brightness.dark : Brightness.light;
   }
 
-
   @disposeMethod
   void dispose() {}
 }

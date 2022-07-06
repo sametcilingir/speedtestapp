@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import '../../../core/theme/theme_service.dart';
 
 import '../../../core/locators/locators.dart';
 import '../../../core/services/route/route_service.dart';
+import '../../../core/services/theme/theme_service.dart';
 import '../view_model/init_view_model.dart';
 
 class InitView extends StatefulWidget {
@@ -20,7 +20,8 @@ class _InitViewState extends State<InitView> {
 
   Future<void> futureWait() async {
     await Future.delayed(const Duration(milliseconds: 500));
-    routeService.push(route: RouteService.HOME);
+    routeService.go(route: RouteService.HOME);
+    //flutter_onboarding_slider control
     /*if (a) {
       setState(() {
         Navigator.of(context).popAndPushNamed('/home');

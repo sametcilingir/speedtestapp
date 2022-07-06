@@ -52,9 +52,21 @@ dependencies:
   #Random id 
   uuid: ^3.0.6
 
+  #Path to save recordings
+  path_provider: ^2.0.11
+
   #Theme
   flex_color_scheme: ^5.0.1
   cupertino_icons: ^1.0.2
+
+  #Speed Test 
+  flutter_speedtest: ^0.0.2+2
+
+  #Speed Chart
+  fl_chart: ^0.55.0
+
+  #Internet Connection
+  connectivity_plus: ^2.3.5
 
   
 
@@ -77,3 +89,7 @@ flutter:
   assets:
   #Localization assets
     - assets/translations/
+
+scripts:
+  build_runner_delete: flutter pub run build_runner build --delete-conflicting-outputs
+  build_runner_watch: flutter pub run build_runner build

@@ -1,5 +1,7 @@
 {
-    "Push Route": "Push Route",
-    "Change Locale": "Change locale",
-    "Pop Route": "Pop Route"
+    "Speed Test": "Speed Test",
+    "DOWNLOAD": "DOWNLOAD",
+    "UPLOAD": "UPLOAD",
+    "Test Now": "Test Now",
+    "Connection Problem": "Connection Problem"
 }

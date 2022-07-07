@@ -2,7 +2,8 @@ import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter_speedtest/flutter_speedtest.dart';
 import 'package:injectable/injectable.dart';
 import 'package:mobx/mobx.dart';
-import 'package:speedtestapp/core/constants/path_constant.dart';
+
+import '../../../core/constants/path_constant.dart';
 
 part 'home_view_model.g.dart';
 

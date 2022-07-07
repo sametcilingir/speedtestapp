@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../../core/constants/route_constant.dart';
 import '../../../core/locators/locators.dart';
 import '../../../core/services/route/route_service.dart';
 import '../../../core/services/theme/theme_service.dart';
@@ -20,7 +21,7 @@ class _InitViewState extends State<InitView> {
 
   Future<void> futureWait() async {
     await Future.delayed(const Duration(milliseconds: 500));
-    routeService.go(route: RouteService.HOME);
+    routeService.go(route: RouteConstant.HOME);
     //flutter_onboarding_slider control
     /*if (a) {
       setState(() {

@@ -1,6 +1,7 @@
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
 import 'package:injectable/injectable.dart';
+
 import '../../../features/init/view_model/init_view_model.dart';
 import '../../locators/locators.dart';
 import 'base/base_theme_service.dart';

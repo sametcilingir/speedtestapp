@@ -4,6 +4,7 @@ import 'package:injectable/injectable.dart';
 
 import '../../../features/home/view/home_view.dart';
 import '../../../features/init/view/init_view.dart';
+import '../../constants/route_constant.dart';
 import 'base/base_route_service.dart';
 
 @injectable
@@ -14,18 +15,15 @@ class RouteService implements BaseRouteService {
 
   final BuildContext _context;
 
-  static const INIT = "/init";
-  static const HOME = "/home";
-
   final globalRoutes = GoRouter(
-    initialLocation: INIT,
+    initialLocation: RouteConstant.INIT,
     routes: [
       GoRoute(
-        path: INIT,
+        path: RouteConstant.INIT,
         builder: (context, state) => const InitView(),
       ),
       GoRoute(
-        path: HOME,
+        path: RouteConstant.HOME,
         builder: (context, state) => const HomeView(),
       ),
     ],

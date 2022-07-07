@@ -5,4 +5,6 @@
 - Light/Dark Mode
 - Dynamic Routes
 
-![App SVideo](video.mp4)
+![SS_1](ss_1.png) 
+![SS_2](ss_2.png)
+![App Video](video.mp4)
